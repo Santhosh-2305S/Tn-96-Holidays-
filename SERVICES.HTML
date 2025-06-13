@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+        /* Services Section */
+.services {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.service h3 {
+  font-size: 1.8rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+    </STYle>
+</head>
+<body>
+    <!-- Services Section -->
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+      <div class="service">
+        <img src="IM/a4.jpg" alt="Tour Guide" />
+        <h3>Expert Tour Guides</h3>
+        <p>Our experienced local guides provide in-depth knowledge and make your tour more engaging and informative. Discover the hidden gems of Tamil Nadu with our expert guides.</p>
+      </div>
+      <div class="service">
+        <img src="IM/a3.jpg" alt="Transportation" />
+        <h3>Comfortable Transportation</h3>
+        <p>Enjoy a smooth and safe travel experience with our well-maintained vehicles. Whether it's a luxury coach or a private car, we've got you covered!</p>
+      </div>
+      <div class="service">
+        <img src="IM/a2.jpg" alt="Accommodation" />
+        <h3>Handpicked Accommodations</h3>
+        <p>Stay in the best hotels and resorts, selected to provide comfort and convenience at great prices. Your relaxation is our priority!</p>
+      </div>
+      <div class="service">
+        <img src="IM/a1.jpg" alt="Custom Packages" />
+        <h3>Customizable Packages</h3>
+        <p>We offer fully customizable tour packages. Whether you want a cultural experience, a hill station retreat, or a coastal holiday, we'll tailor a package just for you.</p>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
